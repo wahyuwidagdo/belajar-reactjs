@@ -2,7 +2,8 @@ import React from 'react';
 import Child from './Child';
 
 class Mine extends React.Component{
-	construtor(){
+	constructor(){
+		super()
 		this.state = {texts: []}
 	}
 
